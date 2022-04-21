@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    <!-- TODO 14: Diseño del menu principal en modo tradicional -->
+    <item
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/menuPrincipalCerrar"
+        android:title="Cerrar Sesión"
+        app:showAsAction="never"/>
+    <item
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/menuPrincipalSalir"
+        android:title="Salir"
+        app:showAsAction="never"/>
+</menu>

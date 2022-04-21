@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1011603272432",
+    "firebase_url": "https://sotr-upc-2021-2-default-rtdb.firebaseio.com",
+    "project_id": "sotr-upc-2021-2",
+    "storage_bucket": "sotr-upc-2021-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011603272432:android:2c19e0a728427b1b378835",
+        "android_client_info": {
+          "package_name": "com.upc.ingenieroselectronicos.ejemplofirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011603272432-ino8b0o4dm8s72qlssq49uh2v9q91mu6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkpjsXvhMyHZMThT9l4rm9MNNaCdqOZxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011603272432-ino8b0o4dm8s72qlssq49uh2v9q91mu6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

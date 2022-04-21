@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TODO 12: Crear los arrays para los spinners en español-->
+    <string-array name="cargo">
+        <item>Elija su cargo -></item>
+        <item>Profesor</item>
+        <item>Alumno</item>
+        <item>Invitado</item>
+
+    </string-array>
+
+    <string-array name ="campus">
+        <item>Campus -></item>
+        <item>Campus MO</item>
+        <item>Campus SM</item>
+    </string-array>
+
+    <string-array name = "estado_curso">
+        <item>Estado-></item>
+        <item>Sigo estudiando</item>
+        <item>Me retiro</item>
+    </string-array>
+</resources>

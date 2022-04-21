@@ -1,0 +1,48 @@
+<resources>
+    <!--TODO 6: Crear los Strings que se traducirán al español-->
+    <string name="app_name">EstudiantesSOTR</string>
+    <string name="titulo">SOTR Course</string>
+    <string name="usuario">Insert your user email</string>
+    <string name="clave">Insert your password</string>
+    <string name="ingresar">Enter</string>
+    <string name="registrar"><u>Register a new user</u></string>
+    <string name="olvido"><u>Forgott your password</u></string>
+
+    <string name="datos_registro">New register</string>
+    <string name="correo_registro">Insert your email</string>
+    <string name="nombre_registro">Insert your name</string>
+    <string name="apellido_registro">Insert your last name</string>
+    <string name="carrera_registro">Insert your carreer</string>
+    <string name="codigo_registro">Insert your student code</string>
+    <string name="clave_registro">Insert your password</string>
+    <string name="claverep_registro">Repeat your password</string>
+    <string name="registrar_nuevo">Create the register</string>
+
+    <string name="olvido_correo">Insert your register email to recover your password:</string>
+
+    <string name="registro_ok">Register succesfull</string>
+    <string name="registro_rep">You are already register in our system</string>
+    <string name="registro_er">There was an error in your register. Try again.</string>
+
+    <string name="envio_ok">Your password has been already sent to your email. Check your messages</string>
+    <string name="envio_no">Your email is not register in our server</string>
+    <string name="envio_er">There was an error. The email was not send.</string>
+
+    <string name="registro_clave_mal">The passwords are different</string>
+    <string name="registro_codigo_mal">The code is not in the correct format</string>
+    <string name="registro_correo_mal">El correo no está bien ingresado</string>
+    <string name="registro_cargo_mal">Debe seleccionar un cargo</string>
+    <string name="registro_campus_mal">Debe seleccionar un campus</string>
+
+    <string name="miperfil">Edit my profile</string>
+    <string name="cerrar">Close session</string>
+    <string name="salir">Quit</string>
+
+    <string name="alumnosciclo">Select the semester</string>
+    <string name="hola">Hello</string>
+    <string name="semestre">Semester</string>
+
+    <string name="grabarcambios">Save changes</string>
+    <string name="editarmisdatos">Edit my data</string>
+
+</resources>

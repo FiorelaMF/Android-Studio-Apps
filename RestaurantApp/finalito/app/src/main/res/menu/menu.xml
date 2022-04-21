@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/vertodo"
+        android:title="Ver todos"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/ver2014"
+        android:title="Ver alumnos 2014"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/ver2015"
+        android:title="Ver alumnos 2015"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/ver2016"
+        android:title="Ver alumnos 2016"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/ver2017"
+        android:title="Ver alumnos 2017"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/ver2018"
+        android:title="Ver alumnos 2018"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/ver2019"
+        android:title="Ver alumnos 2019"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/ver2020"
+        android:title="Ver alumnos 2020"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/menuSalir"
+        android:title="Salir"
+        app:showAsAction="never"></item>
+</menu>

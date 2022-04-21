@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO 3: DIseño de la solicitud de olvido de contraseña-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OlvidoActivity">
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/logo_upc"
+        android:id="@+id/imglogoOlvido"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Solicite su nueva contraseña"
+        android:layout_above="@+id/tilCorreoOlvido"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="Ingrese su correo registrado"
+        app:hintTextColor="@color/black"
+        app:boxStrokeColor="@color/black"
+        app:boxStrokeWidthFocused="2px"
+        app:startIconDrawable="@drawable/user"
+        app:startIconTint="@color/black"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/black"
+        android:id="@+id/tilCorreoOlvido"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="30dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:id="@+id/tieOlvidoActivityMailOlvido"
+            android:inputType="textEmailAddress"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@null"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:text="Solicitar"
+        android:id="@+id/btnOlvidoActivityPedirClave"
+        android:layout_marginHorizontal="30dp"
+        android:layout_below="@+id/tilCorreoOlvido"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

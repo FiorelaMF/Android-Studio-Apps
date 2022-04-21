@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO 15: Crea el RecyclerView para mostrar los datos de los alumnos -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Administrador.MenuAdminActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:id="@+id/contenedorCiclo">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Elija el ciclo: "
+            android:textSize="20sp"
+            android:textColor="@color/red"
+            android:textAlignment="center"
+            android:id="@+id/txvMenuAdminActivityTitulo"/>
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/spiMenuAdminActivityCiclos"/>
+    </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/contenedorCiclo"
+            android:id="@+id/rcvMenuAdminActivityAlumnos"/>
+
+
+
+</RelativeLayout>
+
+
+

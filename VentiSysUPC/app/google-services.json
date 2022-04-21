@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "21858012816",
+    "firebase_url": "https://sotr-2021-02-default-rtdb.firebaseio.com",
+    "project_id": "sotr-2021-02",
+    "storage_bucket": "sotr-2021-02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21858012816:android:35040a9e2d8148364b1215",
+        "android_client_info": {
+          "package_name": "app.acsolutions.ventisysupc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21858012816-hcn63vin2a16u3cf2lq9ofq7b84asgis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYtpNmEh0JFunDfluh2GGf8Oz7x3l-jwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21858012816-hcn63vin2a16u3cf2lq9ofq7b84asgis.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

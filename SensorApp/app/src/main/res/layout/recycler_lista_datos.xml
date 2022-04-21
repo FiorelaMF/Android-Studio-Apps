@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="16dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginBottom="4dp"
+    app:cardPreventCornerOverlap="false"
+    app:contentPadding="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/txvTemp"
+            android:text="Temperatura (°C): 20"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txvHum"
+            android:layout_below="@+id/txvTemp"
+            android:layout_marginLeft="20dp"
+            android:textSize="18dp"
+            android:text="Humedad (%): 50"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txvCO2"
+            android:layout_below="@+id/txvHum"
+            android:textSize="18dp"
+            android:text="CO2 (ppm): 400"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txvAforo"
+            android:layout_below="@+id/txvCO2"
+            android:textSize="18dp"
+            android:text="Aforo: 10"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txvFecha"
+            android:layout_below="@+id/txvAforo"
+            android:textSize="18dp"
+            android:text="Fecha: 20-11-2021"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txvHora"
+            android:layout_below="@+id/txvFecha"
+            android:textSize="18dp"
+            android:text="Hora: 14:00:00"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/black"/>
+
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO 5: Diseñar la interfaz de loguin del App-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/upc"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:text="@string/titulo"
+        android:textAlignment="center"
+        android:textColor="@color/rojo"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/forma_edit"
+        android:layout_marginHorizontal="20dp"
+        android:hint="@string/usuario"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"
+        android:id="@+id/edt_usuario"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="@string/clave"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="20dp"
+        android:background="@drawable/forma_edit"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:textSize="22sp"
+        android:id="@+id/edt_clave"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ingresar"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20dp"
+        app:backgroundTint="@null"
+        android:background="@drawable/forma_boton"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:id="@+id/btn_ingresar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registrar"
+        android:textAlignment="center"
+        android:textColor="@color/rojo"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txv_registrar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/olvido"
+        android:textSize="20sp"
+        android:id="@+id/txv_olvido_login"
+        android:textColor="@color/rojo"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"/>
+
+
+
+    <ProgressBar
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:id="@+id/progbar_activity_main"
+        android:visibility="gone"/>
+
+</LinearLayout>

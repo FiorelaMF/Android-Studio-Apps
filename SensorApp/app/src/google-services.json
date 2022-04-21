@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "969528121533",
+    "firebase_url": "https://sotr-e1748-default-rtdb.firebaseio.com",
+    "project_id": "sotr-e1748",
+    "storage_bucket": "sotr-e1748.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969528121533:android:58c25f6d32658cc1f03fd4",
+        "android_client_info": {
+          "package_name": "com.example.sensorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969528121533-f298cjqndm1jq3dapej44e64fhjfk5vm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz0CNyiqgNmJidzqrUvNoDd1KJCeQP4UQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969528121533-f298cjqndm1jq3dapej44e64fhjfk5vm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

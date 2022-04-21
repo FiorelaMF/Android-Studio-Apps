@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO 11: Modelo repetitivo del RecyclerViewer -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:padding="10dp"
+            android:src="@drawable/upc"
+            android:layout_weight="2"
+            android:fitsSystemWindows="true"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/imgFotoAlumno" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_weight="5"
+            android:layout_gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Manuel"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:id="@+id/txvNombreAlumno"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Romero Gonzales"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:id="@+id/txvApellidosAlumno"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="u201817243"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:id="@+id/txvCodigoAlumno"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_weight="3">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="Ing. Electrónica"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:id="@+id/txvCarreraAlumno"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="RETIRADO"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:id="@+id/txvEstadoAlumno"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/blue"/>
+
+
+</LinearLayout>

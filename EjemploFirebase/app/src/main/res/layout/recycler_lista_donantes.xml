@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO 9: Creamos la vista del RecyclerVIew para los donantes-->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="12dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginBottom="4dp"
+    app:cardPreventCornerOverlap="false"
+    app:contentPadding="0dp">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:id="@+id/imgDonante"
+                android:layout_centerVertical="true"
+                android:src="@drawable/user"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/imgDonante"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/txvNombre"
+                android:text="Mirtha Ibañez"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txvCorreo"
+                android:layout_below="@+id/txvNombre"
+                android:layout_toEndOf="@id/imgDonante"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                android:text="mibanez@rtv.gob.pe"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txvFecha"
+                android:layout_below="@+id/txvCorreo"
+                android:layout_toEndOf="@id/imgDonante"
+                android:textSize="18dp"
+                android:text="24/10/2021"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txvDonacion"
+                android:layout_alignParentEnd="true"
+                android:text="S/.160.00"
+                android:textSize="24sp"
+                android:layout_marginRight="40dp"
+
+                android:layout_alignParentBottom="true"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

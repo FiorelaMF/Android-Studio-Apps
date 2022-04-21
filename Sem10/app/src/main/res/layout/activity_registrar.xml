@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO 9: Creamos el diseño de un registro de un nuevo usuario -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrarActivity">
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/upc"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear un registro"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@color/edit_text"
+        android:layout_marginTop="20dp"
+        android:hint="Ingrese su correo electrónico"
+        android:padding="5dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/edtUsuarioRegistro" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@color/edit_text"
+        android:layout_marginTop="20dp"
+        android:hint="Ingrese contraseña"
+        android:padding="5dp"
+        android:inputType="textPassword"
+        android:id="@+id/edtClaveRegistro" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@color/edit_text"
+        android:layout_marginTop="20dp"
+        android:hint="Ingrese su nombre completo"
+        android:padding="5dp"
+        android:inputType="text"
+        android:id="@+id/edtNombreRegistro" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:weightSum="10">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textColor="@color/black"
+            android:text="Seleccione su facultad"
+            android:textSize="16sp"/>
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:id="@+id/spiFacultad"
+            android:entries="@array/facultades"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:text="Crear nuevo usuario"
+        android:id="@+id/btnCrearUsuario"/>
+
+</LinearLayout>

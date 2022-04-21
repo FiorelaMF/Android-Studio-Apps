@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO 7: Hacer diseño del registro de un nuevo alumno -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MisClases.RegistrarActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/upc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/imgRegistrarActivityLogo"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgRegistrarActivityLogo"
+            android:text="Ingrese sus datos de registro"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="@color/red"
+            android:id="@+id/txvRegistrarActivityTitulo"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_below="@+id/txvRegistrarActivityTitulo"
+            android:hint="Ingrese su correo electrónico"
+            android:padding="5dp"
+            android:background="@drawable/forma_boton"
+            android:textAlignment="center"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edtRegistrarActivityCorreo"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_below="@+id/edtRegistrarActivityCorreo"
+            android:hint="Ingrese su nombre"
+            android:padding="5dp"
+            android:background="@drawable/forma_edit"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edtRegistrarActivityNombre"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_below="@+id/edtRegistrarActivityNombre"
+            android:hint="Ingrese sus apellidos"
+            android:padding="5dp"
+            android:background="@drawable/forma_boton"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edtRegistrarActivityApellido"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_below="@+id/edtRegistrarActivityApellido"
+            android:hint="Ingrese su carrera"
+            android:padding="5dp"
+            android:background="@drawable/forma_edit"
+            android:textAlignment="center"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edtRegistrarActivityCarrera"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_below="@+id/edtRegistrarActivityCarrera"
+            android:hint="Ingrese su código UPC"
+            android:padding="5dp"
+            android:background="@drawable/forma_edit"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edtRegistrarActivityCodigo"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spiRegistrarActivityCargo"
+            android:layout_centerHorizontal="true"
+            android:entries="@array/cargo"
+            android:layout_below="@+id/edtRegistrarActivityCodigo"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="20dp"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spiRegistrarActivityCampus"
+            android:layout_centerHorizontal="true"
+            android:entries="@array/campus"
+            android:layout_below="@+id/spiRegistrarActivityCargo"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_below="@+id/spiRegistrarActivityCampus"
+            android:hint="Ingrese su contraseña"
+            android:padding="5dp"
+            android:background="@drawable/forma_edit"
+            android:textAlignment="center"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edtRegistrarActivityClave"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_below="@+id/edtRegistrarActivityClave"
+            android:hint="Ingrese su contraseña nuevamente"
+            android:padding="5dp"
+            android:background="@drawable/forma_edit"
+            android:textAlignment="center"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edtRegistrarActivityClaveRep"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:text="Registrar"
+            android:layout_below="@+id/edtRegistrarActivityClaveRep"
+            android:layout_marginTop="20dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_boton"
+            android:textSize="22sp"
+            android:id="@+id/btnRegistrarActivityRegistrar"/>
+        <ProgressBar
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/pgbRegistrarActivityEspera"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+
+</ScrollView>

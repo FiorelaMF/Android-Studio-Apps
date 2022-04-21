@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.acsolutions.ventisysupc">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icono"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icono_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".CLIENTE.ClienteDetalleAsistenciaActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/file_paths" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="app.acsolutions.ventisysupc.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".MENUS.RecursosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CLIENTE.ClienteDetalleVentilacionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ADMIN.AdminRegistrarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ADMIN.AdminProgramarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ADMIN.AdminMatricularActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ADMIN.AdminFiebreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CLIENTE.ClienteDocenteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ADMIN.AdminEliminarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CLIENTE.ClienteAsistenciasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CLIENTE.ClienteDatosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CLIENTE.ClienteVentilacionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ADMIN.AdminVentilacionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".COMUNI.ContraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MENUS.MenuAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".COMUNI.OlvidoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MENUS.MenuClienteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ADMIN.AdminAsistenciasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MENUS.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

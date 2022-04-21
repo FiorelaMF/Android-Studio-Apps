@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/fondobu"
+    tools:context=".MENUS.MenuAdminActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/opaco">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="RtlHardcoded"
+            android:gravity="left">
+            <Button
+                android:id="@+id/menu"
+                style="@style/MENU" />
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView style="@style/TITULO"
+                    android:text="@string/BIENV"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/foto"
+                    style="@style/FOTO"
+                    app:civ_border_color="@color/colorBlanco"
+                    app:civ_border_width="4dp"/>
+                <TextView
+                    android:id="@+id/nombre"
+                    style="@style/SUBTITULO"
+                    android:text="NOMBRE USUARIO"/>
+                <TextView
+                    android:id="@+id/codigo"
+                    style="@style/SUBTITULO"
+                    android:text="CODIGO USUARIO"/>
+                <Button
+                    android:id="@+id/registro"
+                    style="@style/LISTA"
+                    android:text="@string/REGIS"/>
+                <Button
+                    android:id="@+id/eliminacion"
+                    style="@style/LISTA"
+                    android:text="@string/ELIMI"/>
+                <Button
+                    android:id="@+id/matricular"
+                    style="@style/LISTA"
+                    android:text="@string/MATRI"/>
+                <Button
+                    android:id="@+id/curso"
+                    style="@style/LISTA"
+                    android:text="@string/PROGR"/>
+
+                <Button
+                    android:id="@+id/asistencia"
+                    style="@style/LISTA"
+                    android:text="@string/ASISS"/>
+                <Button
+                    android:id="@+id/fibre"
+                    style="@style/LISTA"
+                    android:text="@string/FIBRE"/>
+                <Button
+                    android:id="@+id/venti"
+                    style="@style/LISTA"
+                    android:text="@string/AULAS"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

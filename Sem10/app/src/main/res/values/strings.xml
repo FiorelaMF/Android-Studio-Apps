@@ -1,0 +1,11 @@
+<resources>
+    <!-- TODO 2: Hayque ingresar los textos del App en el archivo  -->
+    <string name="app_name">Demo Login</string>
+    <string name="tituloapp">Login to ventilation system</string>
+    <string name="ingresousuario">Insert your email</string>
+    <string name="ingresopassword">Insert your password</string>
+    <string name="recordar">Remember password</string>
+    <string name="olvido">I forgot my password</string>
+    <string name="ingresar">Enter</string>
+    <string name="registrar">Login In</string>
+</resources>

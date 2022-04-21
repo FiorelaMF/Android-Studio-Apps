@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO 15: Crear el XML con el diseño del olvido de contraseña-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OlvidoActivity">
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/upc"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/olvido_correo"
+        android:textSize="20sp"
+        android:textAlignment="textStart"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/rojo"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/forma_edit"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="10dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:inputType="textEmailAddress"
+        android:id="@+id/edt_correo_olvido"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:text="Solicitar"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/edt_claverep_nuevo"
+        android:textColor="@color/black"
+        android:id="@+id/btn_pedir_olvido"
+        android:textSize="22sp"
+        app:backgroundTint="@null"
+        android:background="@drawable/forma_boton"
+        />
+    <ProgressBar
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/pgb_espera_olvido"
+        android:visibility="gone"/>
+
+
+</LinearLayout>

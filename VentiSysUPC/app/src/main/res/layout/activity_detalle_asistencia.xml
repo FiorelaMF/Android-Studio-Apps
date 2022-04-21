@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/fondobu"
+    tools:context=".CLIENTE.ClienteDetalleAsistenciaActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/opaco">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="RtlHardcoded"
+            android:gravity="left">
+            <Button
+                android:id="@+id/back"
+                style="@style/MENU"
+                android:background="@drawable/bback"/>
+            <TextView
+                style="@style/ENCABEZADO"
+                android:text="@string/ASIST"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="RtlHardcoded">
+            <TextView
+                android:id="@+id/curso"
+                style="@style/TEXTO"
+                android:text="Curso: "/>
+            <TextView
+                android:id="@+id/seccion"
+                style="@style/TEXTO"
+                android:text="Sección: "/>
+            <TextView
+                style="@style/TEXTO"
+                android:textSize="28sp"
+                android:text="Asistentes: "/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/lista"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

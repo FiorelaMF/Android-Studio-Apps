@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/fondobu"
+    tools:context=".CLIENTE.ClienteDetalleVentilacionActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/opaco">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="RtlHardcoded"
+            android:gravity="left">
+            <Button
+                android:id="@+id/back"
+                style="@style/MENU"
+                android:background="@drawable/bback"/>
+            <TextView
+                style="@style/ENCABEZADO"
+                android:text="@string/DETAL"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <com.jjoe64.graphview.GraphView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:id="@+id/grafica" />
+
+            <TextView
+                android:id="@+id/aula"
+                style="@style/TEXTO"
+                android:text="Aula: "/>
+            <TextView
+                android:id="@+id/fecha"
+                style="@style/TEXTO"
+                android:text="Fecha: "/>
+            <TextView
+                android:id="@+id/curso"
+                style="@style/TEXTO"
+                android:text="Curso: "/>
+            <TextView
+                android:id="@+id/asistencia"
+                style="@style/TEXTO"
+                android:text="Asistencia: "/>
+            <TextView
+                android:id="@+id/ventilacion"
+                style="@style/TEXTO"
+                android:text="Ventilacion: "/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

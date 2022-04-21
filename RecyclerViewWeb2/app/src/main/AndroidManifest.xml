@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.recyclerviewweb">
+    <!-- TODO 1: Solicito permiso al sistema operativo para usar lacamara, el internet y la galeria de imagenes -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="SOTRApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RecyclerViewWeb">
+        <activity
+            android:name=".MisClases.RegistrarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Cliente.MenuClienteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MisClases.OlvidoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MisClases.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

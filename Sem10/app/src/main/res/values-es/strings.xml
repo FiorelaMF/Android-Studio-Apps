@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO 3: Ingresar ahora los strings en idioma eespañol -->
+    <string name="app_name">EjemploLogin</string>
+    <string name="tituloapp">Login al sistema de ventilación</string>
+    <string name="ingresousuario">Ingrese su correo</string>
+    <string name="ingresopassword">Ingrese su contraseña</string>
+    <string name="recordar">Recordar contraseña</string>
+    <string name="olvido">Olvidé mi contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registrar">Registrar</string>
+</resources>

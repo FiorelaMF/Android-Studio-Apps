@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/fondobu"
+    tools:context=".ADMIN.AdminMatricularActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/opaco">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="RtlHardcoded"
+            android:gravity="left">
+            <Button
+                android:id="@+id/back"
+                style="@style/MENU"
+                android:background="@drawable/bback"/>
+            <TextView
+                style="@style/ENCABEZADO"
+                android:text="@string/MATRI"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                style="@style/TEXTO"
+                android:text="Código:" />
+            <EditText
+                android:id="@+id/codigo"
+                style="@style/ESCRIBIR"
+                android:hint="Escribir Código ..." />
+            <Button
+                android:id="@+id/envio"
+                style="@style/BOTON"
+                android:text="@string/BUSCA"/>
+            <LinearLayout
+                android:id="@+id/info"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/foto"
+                    style="@style/FOTO"
+                    app:civ_border_color="@color/colorBlanco"
+                    app:civ_border_width="4dp"/>
+                <TextView
+                    android:id="@+id/nombre"
+                    style="@style/TEXTO"
+                    android:text="Nombre: " />
+                <TextView
+                    android:id="@+id/apelidos"
+                    style="@style/TEXTO"
+                    android:text="Apellidos: " />
+                <TextView
+                    android:id="@+id/carrera"
+                    style="@style/TEXTO"
+                    android:text="Carrera: " />
+                <TextView
+                    style="@style/TEXTO"
+                    android:text="Curso:"/>
+                <Button
+                    android:id="@+id/curso"
+                    style="@style/ESCRIBIR"
+                    android:onClick="onClick"
+                    android:text="Seleccionar ..."/>
+                <TextView
+                    style="@style/TEXTO"
+                    android:text="Seccion:"/>
+                <Button
+                    android:id="@+id/seccion"
+                    style="@style/ESCRIBIR"
+                    android:onClick="onClick"
+                    android:text="Seleccionar ..."/>
+                <Button
+                    android:id="@+id/matricular"
+                    style="@style/BOTON"
+                    android:text="@string/MATRIC"/>
+                <Button
+                android:id="@+id/retirar"
+                style="@style/BOTON"
+                android:text="@string/RETIR"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO 5: Creamos un menú para cerrar sesión, cerrar el APp y ver la lista de donante-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Ver lista de donantes"
+        android:id="@+id/menuprincipallistaDonantes"
+        app:showAsAction="never"/>
+    <item
+        android:title="Cerrar sesión"
+        android:id="@+id/menuprincipalCerrar"
+        app:showAsAction="never"/>
+    <item
+        android:title="Salir"
+        android:id="@+id/menuprincipalSalir"
+        app:showAsAction="never"/>
+
+</menu>

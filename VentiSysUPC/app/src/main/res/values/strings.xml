@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">VentiSysUPC</string>
+    <string name="TITULO">Sistema de Ventilación</string>
+    <string name="CONTRA">Cambio de Contraseña</string>
+    <string name="TIT_CON">Recuperación de Contraseña</string>
+
+    <string name="CONTR">Ingresar Contraseña ...</string>
+    <string name="USUAR">Ingresar Correo ...</string>
+    <string name="CODIG">Ingresar Código ...</string>
+    <string name="NOMBR">Ingresar Nombre ...</string>
+    <string name="PATER">Ingresar Apellido Paterno ...</string>
+    <string name="MATER">Ingresar Apellido Materno ...</string>
+
+    <string name="SELEC">SELECCIONAR ...</string>
+
+    <string name="ANT">Antigua Contraseña ...</string>
+    <string name="NUE">Nueva Contraseña ...</string>
+    <string name="REP">Repetir Contraseña ...</string>
+
+
+    <string name="INGRE">INGRESAR</string>
+    <string name="GUARD">GUARDAR</string>
+    <string name="BUSCA">BUSCAR</string>
+    <string name="CAMBI">CAMBIAR</string>
+    <string name="ENVIO">ENVIAR</string>
+    <string name="MATRIC">MATRICULAR</string>
+    <string name="RETIR">RETIRAR</string>
+    <string name="REGII">REGISTRAR</string>
+    <string name="PROGRAM">PROGRAMAR</string>
+
+    <string name="BIENV">¡Bienvenido!</string>
+    <string name="ASIST">Mis Asistencias</string>
+    <string name="VENTI">Ver Ventilación</string>
+    <string name="DATOS">Mis Datos</string>
+    <string name="DETAL">Detalle Ventilación</string>
+
+    <string name="AULAS">Ver Ventilación de Aulas</string>
+    <string name="DOCEN">Asistencias de Clases</string>
+    <string name="FIBRE">Ver Casos Fiebre</string>
+    <string name="REGIS">Registrar Usuario</string>
+    <string name="ELIMI">Eliminar Usuario</string>
+    <string name="MATRI">Matricular Alumno</string>
+    <string name="ASISS">Ver Asistencia</string>
+    <string name="PROGR">Programar Curso</string>
+</resources>

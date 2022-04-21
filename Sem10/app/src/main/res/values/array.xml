@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO 10: Crear array de datos para el Spinner  -->
+    <string-array name="facultades">
+        <item>Ingeniería</item>
+        <item>Ciencias de la Salud</item>
+        <item>Negocios Internaiconales</item>
+        <item>Administración</item>
+        <item>Arquitectura</item>
+        <item>Derecho</item>
+
+    </string-array>
+
+</resources>

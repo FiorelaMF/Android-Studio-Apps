@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO 19: Diseñar el menú de opciones para el administrador-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_cambioPassw"
+        android:title="Cambiar contraseña"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_cerrar"
+        android:title="Cerrar sesión"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_salir"
+        android:title="Salir"
+        app:showAsAction="never"/>
+
+</menu>

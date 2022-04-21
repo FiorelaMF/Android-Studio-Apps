@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.EliminarAlumnoActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eliminar alumno"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="@color/red"
+            android:id="@+id/txvTop"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_below="@+id/txvTop"
+            android:hint="Ingrese su código UPC"
+            android:padding="5dp"
+            android:background="@drawable/forma_edit"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edtAdmin4Codigo"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100dp"
+            android:text="Buscar"
+            android:layout_below="@+id/edtAdmin4Codigo"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_boton"
+            android:textSize="20sp"
+            android:id="@+id/btnAdmin4Buscar"/>
+        <ProgressBar
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/pgbAdmin4"
+            android:visibility="gone"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/btnAdmin4Buscar"
+            android:id="@+id/rcvAdmin4Alumno"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100dp"
+            android:text="Eliminar"
+            android:layout_below="@+id/rcvAdmin4Alumno"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            app:backgroundTint="@null"
+            android:background="@drawable/forma_boton"
+            android:textSize="20sp"
+            android:id="@+id/btnAdmin4Eliminar"/>
+
+    </RelativeLayout>
+
+
+</ScrollView>

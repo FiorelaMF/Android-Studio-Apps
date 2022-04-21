@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TODO 7: Crear los Strings en español-->
+    <string name="app_name">EstudiantesSOTR</string>
+    <string name="titulo">Curso SOTR</string>
+    <string name="usuario">Ingrese su email registrado</string>
+    <string name="clave">Ingrese su contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registrar"><u>Regístrese</u></string>
+    <string name="olvido"><u>Olvidó su contraseña</u></string>
+
+    <string name="datos_registro">Nuevo registro</string>
+    <string name="correo_registro">Ingrese su correo</string>
+    <string name="nombre_registro">Ingrese su nombre</string>
+    <string name="apellido_registro">Ingrese sus apellidos</string>
+    <string name="carrera_registro">Ingrese su carrera</string>
+    <string name="codigo_registro">Ingrese su código de alumno</string>
+    <string name="clave_registro">Ingrese su contraseña</string>
+    <string name="claverep_registro">Repita su contraseña</string>
+    <string name="registrar_nuevo">Crear el registro</string>
+
+    <string name="olvido_correo">Ingrese su correo registrado para recuperar su contraseña:</string>
+
+    <string name="registro_ok">Registro satisfactorio</string>
+    <string name="registro_rep">Usted ya se encuentra registrado en nuestro sistema</string>
+    <string name="registro_er">Hubo un error en los datos. Intente de nuevo</string>
+
+    <string name="envio_ok">Su contraseña fue enviada a su correo. Revise su bandeja</string>
+    <string name="envio_no">Su correo electrónico no está registrado en nuestro sistema</string>
+    <string name="envio_er">Hubo un error en la solicitud. No se envió el correo.</string>
+
+    <string name="registro_clave_mal">Las claves no coinciden</string>
+    <string name="registro_codigo_mal">El código no está en el formato correcto</string>
+    <string name="registro_correo_mal">El correo no está bien ingresado</string>
+    <string name="registro_cargo_mal">Debe seleccionar un cargo</string>
+    <string name="registro_campus_mal">Debe seleccionar un campus</string>
+
+    <string name="miperfil">Editar mis datos</string>
+    <string name="cerrar">Cerrar sesión</string>
+    <string name="salir">Salir</string>
+
+    <string name="alumnosciclo">Seleccione el ciclo</string>
+
+    <string name="hola">Hola</string>
+    <string name="semestre">Semestre</string>
+
+    <string name="grabarcambios">Guardar cambios</string>
+    <string name="editarmisdatos">Editar mis datos</string>
+</resources>

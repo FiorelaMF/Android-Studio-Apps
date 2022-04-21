@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/fondobu"
+    tools:context=".ADMIN.AdminRegistrarActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/opaco">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="RtlHardcoded"
+            android:gravity="left">
+            <Button
+                android:id="@+id/back"
+                style="@style/MENU"
+                android:background="@drawable/bback"/>
+            <TextView
+                style="@style/ENCABEZADO"
+                android:text="@string/REGIS"/>
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/TEXTO"
+                    android:text="Código: " />
+                <EditText
+                    android:id="@+id/codigo"
+                    style="@style/ESCRIBIR"
+                    android:hint="@string/CODIG" />
+                <TextView
+                    style="@style/TEXTO"
+                    android:text="Correo: " />
+                <EditText
+                    android:id="@+id/correo"
+                    style="@style/ESCRIBIR"
+                    android:hint="@string/USUAR" />
+                <TextView
+                    style="@style/TEXTO"
+                    android:text="Nombre y Apellidos:" />
+                <EditText
+                    android:id="@+id/nombre"
+                    style="@style/ESCRIBIR"
+                    android:hint="@string/NOMBR"/>
+                <EditText
+                    android:id="@+id/ap"
+                    style="@style/ESCRIBIR"
+                    android:hint="@string/PATER" />
+                <EditText
+                    android:id="@+id/am"
+                    style="@style/ESCRIBIR"
+                    android:hint="@string/MATER" />
+                <TextView
+                    style="@style/TEXTO"
+                    android:text="Carrera: " />
+                <Button
+                    android:id="@+id/carrera"
+                    style="@style/ESCRIBIR"
+                    android:onClick="onClick"
+                    android:text="@string/SELEC"/>
+                <TextView
+                    style="@style/TEXTO"
+                    android:text="Sexo: " />
+                <Button
+                    android:id="@+id/sexo"
+                    style="@style/ESCRIBIR"
+                    android:onClick="onClick"
+                    android:text="@string/SELEC"/>
+                <TextView
+                    style="@style/TEXTO"
+                    android:text="Tipo de Usuario " />
+                <Button
+                    android:id="@+id/estado"
+                    style="@style/ESCRIBIR"
+                    android:onClick="onClick"
+                    android:text="@string/SELEC"/>
+                <Button
+                    android:id="@+id/registrar"
+                    style="@style/BOTON"
+                    android:text="@string/REGII"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

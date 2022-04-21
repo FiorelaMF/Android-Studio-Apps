@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO 8:Creamos los arrays con los textos para el Spinner -->
+    <string-array name="cargo">
+        <item>Elija su cargo</item>
+        <item>Profesor</item>
+        <item>ALumno</item>
+        <item>Invitado</item>
+    </string-array>
+    <string-array name="campus">
+        <item>Elija su campus</item>
+        <item>SM</item>
+        <item>MO</item>
+        <item>VL</item>
+        <item>SI</item>
+    </string-array>
+    <string-array name="estado">
+        <item>Elija si sigue en el curso</item>
+        <item>ACTIVO</item>
+        <item>RETIRADO</item>
+    </string-array>
+</resources>

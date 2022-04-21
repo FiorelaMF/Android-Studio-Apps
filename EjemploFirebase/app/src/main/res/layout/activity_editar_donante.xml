@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO 14: Creamos la vista de edición de un donador-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditarDonanteActivity">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="192dp"
+        android:layout_height="192dp"
+        android:src="@drawable/user"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:id="@+id/imgEditarDonanteActivityFoto"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:background="#D8D7D7"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:id="@+id/edtEditarDonanteActivityNombre"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo"
+        android:background="#D8D7D7"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/edtEditarDonanteActivityCorreo"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#abf234"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sexo Masculino"
+            android:id="@+id/rbEditarDonanteActivityMasculino"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Sexo Femenino"
+            android:id="@+id/rbEditarDonanteActivityFemenino"/>
+
+    </RadioGroup>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha"
+        android:background="#D8D7D7"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/edtEditarDonanteActivityFecha"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="S/. Donación"
+        android:background="#D8D7D7"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/edtEditarDonanteActivityDonacion"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEditarDonanteActivityActualizar"
+        app:backgroundTint="@null"
+        android:background="#FF0000"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Actualizar"/>
+
+</LinearLayout>

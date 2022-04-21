@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/fondobu"
+    tools:context=".ADMIN.AdminVentilacionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/opaco">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="RtlHardcoded"
+            android:gravity="left">
+            <Button
+                android:id="@+id/back"
+                style="@style/MENU"
+                android:background="@drawable/bback"/>
+            <TextView
+                style="@style/ENCABEZADO"
+                android:text="VENTILACION"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/busqueda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                style="@style/TEXTO"
+                android:text="Campus:"/>
+            <Button
+                android:id="@+id/campus"
+                style="@style/ESCRIBIR"
+                android:onClick="onClick"
+                android:text="Seleccionar ..."/>
+            <TextView
+                style="@style/TEXTO"
+                android:text="Carrera:"/>
+            <Button
+                android:id="@+id/carrera"
+                style="@style/ESCRIBIR"
+                android:onClick="onClick"
+                android:text="Seleccionar ..."/>
+            <TextView
+                style="@style/TEXTO"
+                android:text="Curso:"/>
+            <Button
+                android:id="@+id/curso"
+                style="@style/ESCRIBIR"
+                android:onClick="onClick"
+                android:text="Seleccionar ..."/>
+            <TextView
+                style="@style/TEXTO"
+                android:text="Seccion:"/>
+            <Button
+                android:id="@+id/seccion"
+                style="@style/ESCRIBIR"
+                android:onClick="onClick"
+                android:text="Seleccionar ..."/>
+            <Button
+                android:id="@+id/buscar"
+                style="@style/BOTON"
+                android:text="@string/BUSCA" />
+        </LinearLayout>
+        <TextView
+            style="@style/TEXTO"
+            android:text="Ventilaciones Medidas:"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/lista"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/drawable/style_boton.xml" value="0.17871621621621622" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_admin_asistencias.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_admin_eliminar.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_admin_fiebre.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_admin_matricular.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_admin_programar.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_admin_registrar.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_admin_ventilacion.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_cliente_asistencias.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_cliente_datos.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_cliente_docente.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_cliente_ventilacion.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_contra.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_detalle_asistencia.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_detalle_ventilacion.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_eliminar_alumno.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_matricular_alumno.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_menu_admin.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_menu_cliente.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_menu_ventilacion.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_mi_ventilacion.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_mis_asistencias.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_mis_datos.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_olvido.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_programar_curso.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_recursos.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_registrar_alumno.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_uso_contra.xml" value="0.176" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_uso_detalle_ventilacion.xml" value="0.16622073578595317" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_ver_asistencias.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_ver_asistencias_alumnos.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/activity_ver_fiebre.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/rec_asistencias.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/rec_detalle_alumno.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/rec_docente.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/rec_fiebre.xml" value="0.176" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/rec_misasistencias.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/rec_misventilaciones.xml" value="0.16824324324324325" />
+        <entry key="..\:/3.CURSOS/2021-02/OPERATIVOS/VentiSysUPC/app/src/main/res/layout/rec_ventilacion.xml" value="0.16824324324324325" />
+        <entry key="..\:/Users/Fiorela/Android Studio Apps/VentiSysUPC/app/src/main/res/layout/activity_admin_asistencias.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
